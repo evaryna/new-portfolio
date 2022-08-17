@@ -175,7 +175,8 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 
-footer .social-links a {
+footer .social-links a,
+.icon {
   margin: 0 20px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
@@ -188,4 +189,8 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+.contact-link-github {
+  margin-top: 300px;
 }
